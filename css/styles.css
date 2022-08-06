@@ -313,6 +313,7 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  background-color: #fff;
 }
 
 .cards-text {
@@ -334,6 +335,7 @@ img {
   color: #757575;
   line-height: 1.2;
   margin: 0;
+  padding-bottom: 16px;
 }
 
 /* Social links*/
@@ -351,7 +353,6 @@ img {
   display: flex;
   justify-content: center;
   gap: 10px;
-  padding-top: 16px;
 }
 
 .soc-links-icon {
@@ -410,18 +411,18 @@ img {
   border-radius: 4px;
 
 }
-.regular-links:hover, 
-.regular-links:focus{
-  border-color: #2196f3;
-}
 .regular-icon{
   fill: #AFB1B8;
 }
-.regular-icon:hover,
-.regular-icon:focus{
-  fill: #2196f3;
+.regular-links:hover,
+.regular-links:focus{
+  border-color: #2196f3;
 }
 
+.regular-links:hover .regular-icon,
+.regular-links:focus .regular-icon{
+  fill: #2196f3;
+}
 
 /* footer */
 
@@ -429,6 +430,11 @@ img {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.foot-cont{
+  display: flex;
+  align-items: center;
 }
 
 /* Webstudio Footer */
@@ -501,7 +507,16 @@ img {
 }
 
 /* Social links footer */
+.soc-container{
+  display: flex;
+  flex-direction: column;
+  
+  padding-left: 70px;
+  height: 80px;
+}
+
 .soc-head{
+  padding-bottom: 20px;
   
   font-weight: 700;
   font-size: 14px;
@@ -509,37 +524,30 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #FFFFFF;
-  
 }
 
 .soc-footer{
   display: flex;
   justify-content: center;
   gap: 10px;
-
-  
 }
 .soc-footer-item{
   display: flex;
-}
-
-.soc-footer-links{
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  display: block;
-  justify-content: center;
-  text-align: center;
-
-  background-color:  rgba(255, 255, 255, 0.1);;
+  background:  rgba(255, 255, 255, 0.1);
 }
 
-.soc-footer-links:hover{
-  background-color: #2196f3;
+.soc-footer-icon{
+  fill: #fff;
 }
-.foot-cont{
-  display: flex;
-  justify-content: space-around ;
+
+.soc-footer-item:hover,
+.soc-footer-item:focus{
+  background: #2196f3;
 }
 /* PORTFOLIO!!! */
 

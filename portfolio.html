@@ -16,29 +16,40 @@
     <!--Header container-->
 
     <header class="header">
-      <div class="container">
+      <div class="container inline-nav">
      
+      
        <!--Hav-->
-     <div class="inline-nav">
-      <nav class="inline-nav">
-        <a class="webstudio" href="./index.html"><span class="Web">Web</span>Studio</a>
+  
+       <nav class="inline-nav">
+      
+         <a class="webstudio" href="./index.html"><span class="Web">Web</span>Studio</a>
         <ul class="site-nav">
-          <li class="nav-item"><a href="./index.html" class="link studio ">Студия</a></li>
-          <li class="nav-item"><a href="./portfolio.html" class="link portfolio current">Портфолио</a></li>
-          <li class="nav-item"><a href="./index.html" class="link contacts">Контакты</a></li>
+         <li class="nav-item"><a class="link studio  " href="./index.html">Студия</a></li>
+         <li class="nav-item"><a class="link portfolio current" href="./portfolio.html">Портфолио</a></li>
+         <li class="nav-item"><a class="link contacts " href="./index.html">Контакты</a></li>
         </ul>
-      </nav>
+       
+        </nav> 
 
-      <!--Contacts Header-->
+       
 
-      <ul class="contact">
-        <li class="contact-item"><a class="mail "href="mailto:info@devstudio.com">
-         <svg class="icon" width="16px" height="12px"><use href="./images/icons..svg#icon-envelope-hover"></use></svg>  info@devstudio.com</a></li>
-        <li class="contact-item"><a class="tel" href="tel:+380961111111">
-          <svg class="icon" width="10px" height="16px"><use href="./images/icons..svg#icon-smartphone"></use></svg> +38 096 111 11 11</a></li>
-      </ul>
-    </div>
-    </header>
+       <!--Contacts Header--> 
+      
+          <ul class="contact">
+          <li class="contact-item"><a class="mail flex-con" href="mailto:info@devstudio.com">
+            <svg class="icon" width="16px" height="12px"><use href=".//images/icons..svg#icon-envelope-hover"></use></svg>info@devstudio.com</a></li>
+            <li class="contact-item"><a class="tel flex-con" href="tel:+380961111111">
+              <svg class="icon" width="10px" height="16px"><use href="./images/icons..svg#icon-smartphone"></use></svg> +38 096 111 11 11</a></li>
+          </ul>
+          
+               
+
+        
+       
+       
+          
+   </header>
 
     <!--Main-->
     <main>
@@ -170,8 +181,22 @@
 
     <!--Footer section-->
     <footer class="footer">
-      <ul class="soc-footer">
+      <div class="container foot-cont">
+        
+        <div>
+          <a href="./index.html" class="webstudio-footer"><span class="Web">Web</span>Studio</a>
+          <address>
+                <ul>
+                   <li class="footer-item"><a href ="https://goo.gl/maps/MFTDkAoGyG5AVStr5" class="adress" target="_blank" rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26</a></li> 
+                   <li class="footer-item"><a href="mailto:info@example.com" class="mail-footer">info@example.com</a></li>
+                   <li class="footer-item"><a href="tel:+380991111111" class="tel-footer">+38 099 111 11 11</a></li> 
+                </ul>
+            </address>
+          </div>
+      
+        <div class="soc-container">
         <h2 class="soc-head">Присоеденяйтесь</h2>
+        <ul class="soc-footer">
             
             <li class="soc-footer-item">
               <a href="" class="soc-footer-link">
@@ -205,24 +230,10 @@
               </a>
             </li>
            </ul>
-      <div class="container">
-      <a href="./index.html" class="webstudio-footer"><span class="Web">Web</span>Studio</a>
-      <address>
-        <ul>
-          <li class="footer-item">
-            <a
-              href="https://goo.gl/maps/MFTDkAoGyG5AVStr5"
-              target="_blank"
-              rel="noreferrer noopener"
-              class="adress"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li class="footer-item"><a href="mailto:info@example.com" class="mail-footer">info@example.com</a></li>
-          <li class="footer-item"><a href="tel:+380991111111" class="tel-footer">+38 099 111 11 11</a></li>
-        </ul>
-      </address>
-    </div>
+      </div>  
+     
+         
+      </div>
     </footer>
   </body>
 </html>
