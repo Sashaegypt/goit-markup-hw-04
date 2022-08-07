@@ -335,7 +335,7 @@ img {
   color: #757575;
   line-height: 1.2;
   margin: 0;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 /* Social links*/
@@ -434,7 +434,7 @@ img {
 
 .foot-cont{
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 /* Webstudio Footer */
@@ -507,12 +507,8 @@ img {
 }
 
 /* Social links footer */
-.soc-container{
-  display: flex;
-  flex-direction: column;
-  
-  padding-left: 70px;
-  height: 80px;
+.soc-container{ 
+  margin-left: 70px;
 }
 
 .soc-head{
@@ -531,7 +527,8 @@ img {
   justify-content: center;
   gap: 10px;
 }
-.soc-footer-item{
+
+.soc-footer-link{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -540,13 +537,12 @@ img {
   border-radius: 50%;
   background:  rgba(255, 255, 255, 0.1);
 }
-
 .soc-footer-icon{
   fill: #fff;
 }
 
-.soc-footer-item:hover,
-.soc-footer-item:focus{
+.soc-footer-link:hover,
+.soc-footer-link:focus{
   background: #2196f3;
 }
 /* PORTFOLIO!!! */
